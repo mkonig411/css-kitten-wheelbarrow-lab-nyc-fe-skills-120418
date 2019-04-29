@@ -27,7 +27,11 @@
 
 /* Select the image based on it being a sibling that follows immediately after the element with an id of ball (using adjacent sibling selector) */
 
+<<<<<<< HEAD
 /*__write_selector_here__*/ #ball + img {
+=======
+/*__write_selector_here__*/ #ball~img{
+>>>>>>> 9ae36067ed42d68ab82643de60e6bdbb93f096fd
   position: absolute;
   z-index: 4;
   top: 260px;
@@ -36,7 +40,11 @@
 
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
 
+<<<<<<< HEAD
 /*__write_selector_here__*/ img[alt="Kitty 5"] {
+=======
+/*__write_selector_here__*/ img[src="images/kitty-4.png"] {
+>>>>>>> 9ae36067ed42d68ab82643de60e6bdbb93f096fd
   position: absolute;
   z-index: 3;
   top: 217px;
